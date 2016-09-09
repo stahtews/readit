@@ -1,0 +1,17 @@
+<h1>Hello, index!</h1>
+
+<%= "count to 10" %>
+
+<br/>
+
+<% 11.times do |i| %>
+	<%= i %>
+	<% end %>
+
+
+
+  <%	if(params.has_key?(:id)&& params.has_key?(:random)) %><br/>
+  		<%= " ID is : #{params[:id]}" %><br/>
+  		<%= " random is : #{params[:random]}" %><br/>
+  	
+ <% end %>  
